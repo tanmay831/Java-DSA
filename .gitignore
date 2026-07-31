@@ -1,0 +1,18 @@
+# Compiled Class Files
+*.class
+
+# Executables & Archives
+*.jar
+*.war
+*.ear
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
