@@ -60,9 +60,34 @@ My Java Data Structures, Algorithms, and Core Java learning repository.
 - `StackDemo.java` - Stack push/pop/peek
 - `QueueDemo.java` - Queue offer/poll/peek
 
+### 9. 🧵 Multithreading & Concurrency (`Multithreading/`)
+- `01_ThreadCreationExtending.java` - Thread creation by extending `Thread` class
+- `02_ThreadCreationRunnable.java` - Thread creation with `Runnable` & Lambda expressions
+- `03_ThreadLifecycleAndMethods.java` - Thread methods: `sleep()`, `join()`, `interrupt()`, `getState()`
+- `04_DaemonThreads.java` - User threads vs Daemon background threads
+- `05_SynchronizedMethod.java` - Preventing race conditions using `synchronized` methods
+- `06_SynchronizedBlock.java` - Fine-grained locking with `synchronized` blocks
+- `07_StaticSynchronization.java` - Class-level locking with static synchronized methods
+- `08_ReentrantLockDemo.java` - Explicit locking with `ReentrantLock` & `tryLock()`
+- `09_WaitNotifyProducerConsumer.java` - Producer-Consumer pattern using `wait()`, `notify()`
+- `10_ConditionVariables.java` - Advanced signaling using `Lock` & `Condition`
+- `11_ExecutorServiceDemo.java` - Thread pools (`FixedThreadPool`, `CachedThreadPool`, `shutdown()`)
+- `12_CallableAndFuture.java` - Asynchronous computations with `Callable<V>` & `Future<V>`
+- `13_ScheduledExecutorServiceDemo.java` - Delayed and periodic task scheduling
+- `14_VolatileKeywordDemo.java` - Memory visibility across CPU caches with `volatile`
+- `15_AtomicVariablesDemo.java` - Lock-free thread-safe counters with `AtomicInteger`
+- `16_CountDownLatchDemo.java` - Worker thread coordination with `CountDownLatch`
+- `17_CyclicBarrierDemo.java` - Multi-phase synchronization barrier with `CyclicBarrier`
+- `18_SemaphoreDemo.java` - Resource pool rate-limiting with `Semaphore` permits
+- `19_ConcurrentCollectionsDemo.java` - `ConcurrentHashMap`, `CopyOnWriteArrayList`, `ArrayBlockingQueue`
+- `20_DeadlockDemoAndPrevention.java` - Deadlock simulation & prevention via Lock Ordering
+- `21_PrintOddEvenThreads.java` - Sequential odd-even number printing using 2 threads
+
 ---
 
 ## 📖 Quick Study Notes (`Notes/`)
 - [OOP_Notes.md](./Notes/OOP_Notes.md)
 - [Exception_Notes.md](./Notes/Exception_Notes.md)
 - [Collections_Notes.md](./Notes/Collections_Notes.md)
+- [04_Multithreading_Notes.md](./Notes/04_Multithreading_Notes.md)
+
